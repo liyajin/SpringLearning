@@ -6,6 +6,7 @@ import org.springframework.core.io.ClassPathResource;
 
 public class HelloApp {
   public static void main(String[] args) throws Exception {
+
     BeanFactory factory = 
         new XmlBeanFactory(new ClassPathResource("hello.xml"));
 
