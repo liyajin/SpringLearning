@@ -24,4 +24,8 @@ public class KnightOfTheRoundTable implements Knight{
         return quest.embark();
     }
 
+    public String getName() {
+        return name;
+    }
+
 }
