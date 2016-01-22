@@ -11,7 +11,7 @@
 
     <bean id="sonnet29" class="com.springinaction.chapter02.springido1.Sonnet29" />
 
-    <bean id="Kenny" class="com.springinaction.chapter02.springido1.Instrumentalist" init-method="tuneInstrument" destroy-method="cleanInstrument">
+    <bean id="Kenny" class="com.springinaction.chapter02.springido1.Instrumentalist">
         <property name="song" value="Jingle Bells" />
         <property name="instrument" ref="piano" />
     </bean>
