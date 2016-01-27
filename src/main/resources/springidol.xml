@@ -33,4 +33,9 @@
     <bean id="theStage" class="com.springinaction.chapter02.springido1.Stage" factory-method="getInstance">
     </bean>
 
+    <bean id="audience" class="com.springinaction.chapter02.springido1.Audience" />
+
+    <bean id="audienceAdvice" class="com.springinaction.chapter02.springido1.AudienceAdvice">
+        <property name="audience" ref="audience" />
+    </bean>
 </beans>
